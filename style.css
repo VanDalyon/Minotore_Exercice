@@ -1,0 +1,24 @@
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+
+.fw-black {
+  font-weight: 900 !important;
+}
+
+.font-primary {
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.under-title {
+  color: rgb(80, 80, 80);
+  line-height: 1.24;
+  letter-spacing: 2px;
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */

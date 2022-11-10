@@ -1,0 +1,22 @@
+@import 'assets/sass/variable';
+@import 'assets/sass/override';
+@import 'assets/sass/utilities';
+@import 'assets/sass/navbar';
+
+
+.font-primary{
+  font-family: $font-primary;
+}
+
+.title{
+  font-size: $fs-1;
+  font-weight: bold;
+  color: #000;
+}
+
+.under-title{
+  color: rgb(80, 80, 80);
+  line-height : 1.24;
+  letter-spacing: 2px;
+  width: 80%;
+}
