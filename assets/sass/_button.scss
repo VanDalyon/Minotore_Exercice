@@ -1,7 +1,31 @@
-.button-filled{
-
-}
-
-.button-outlined{
-
+.button-custom{
+    border-radius: var(--bs-border-radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem; 
+    padding: 1rem 2.2rem;
+    border-width: 1px;
+    transition: all 0.2s ease-in-out;
+    &.button-filled{  
+        background-color: #19191b;
+        color: white;    
+        &:hover{
+            background-color: transparent;
+            color:#19191b;
+            border: 1px solid #19191b;
+        }
+    }
+    &.button-outlined{  
+        background-color: transparent;
+        color: #19191b; 
+        border: 1px solid #19191b;   
+        &:hover{
+            background-color: #19191b;
+            color: white;
+        }
+    }
+    i{
+        font-size: 1.5rem;
+    }
 }
