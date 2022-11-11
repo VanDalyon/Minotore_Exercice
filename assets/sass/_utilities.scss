@@ -1,3 +1,15 @@
 .fw-black{
     font-weight: 900 !important;   
 }
+
+.font-primary{
+    font-family: $font-primary;
+}
+  
+.font-secondary{
+    font-family: $font-secondary;
+}
+  
+.text-transform-none{
+ text-transform: none !important;
+}
